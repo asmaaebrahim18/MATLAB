@@ -1,0 +1,37 @@
+function RTW_rtwnameSIDMap() {
+	this.rtwnameHashMap = new Array();
+	this.sidHashMap = new Array();
+	this.rtwnameHashMap["<Root>"] = {sid: "Task_2"};
+	this.sidHashMap["Task_2"] = {rtwname: "<Root>"};
+	this.rtwnameHashMap["<Root>/InPut1"] = {sid: "Task_2:8"};
+	this.sidHashMap["Task_2:8"] = {rtwname: "<Root>/InPut1"};
+	this.rtwnameHashMap["<Root>/InPut2"] = {sid: "Task_2:9"};
+	this.sidHashMap["Task_2:9"] = {rtwname: "<Root>/InPut2"};
+	this.rtwnameHashMap["<Root>/AND "] = {sid: "Task_2:1"};
+	this.sidHashMap["Task_2:1"] = {rtwname: "<Root>/AND "};
+	this.rtwnameHashMap["<Root>/NOR "] = {sid: "Task_2:5"};
+	this.sidHashMap["Task_2:5"] = {rtwname: "<Root>/NOR "};
+	this.rtwnameHashMap["<Root>/NOT "] = {sid: "Task_2:6"};
+	this.sidHashMap["Task_2:6"] = {rtwname: "<Root>/NOT "};
+	this.rtwnameHashMap["<Root>/NOT  "] = {sid: "Task_2:7"};
+	this.sidHashMap["Task_2:7"] = {rtwname: "<Root>/NOT  "};
+	this.rtwnameHashMap["<Root>/OR "] = {sid: "Task_2:2"};
+	this.sidHashMap["Task_2:2"] = {rtwname: "<Root>/OR "};
+	this.rtwnameHashMap["<Root>/XOR "] = {sid: "Task_2:4"};
+	this.sidHashMap["Task_2:4"] = {rtwname: "<Root>/XOR "};
+	this.rtwnameHashMap["<Root>/AND_Out"] = {sid: "Task_2:10"};
+	this.sidHashMap["Task_2:10"] = {rtwname: "<Root>/AND_Out"};
+	this.rtwnameHashMap["<Root>/OR_Out"] = {sid: "Task_2:11"};
+	this.sidHashMap["Task_2:11"] = {rtwname: "<Root>/OR_Out"};
+	this.rtwnameHashMap["<Root>/XOR_Out"] = {sid: "Task_2:12"};
+	this.sidHashMap["Task_2:12"] = {rtwname: "<Root>/XOR_Out"};
+	this.rtwnameHashMap["<Root>/NOR_Out"] = {sid: "Task_2:13"};
+	this.sidHashMap["Task_2:13"] = {rtwname: "<Root>/NOR_Out"};
+	this.rtwnameHashMap["<Root>/InPut1Inverter"] = {sid: "Task_2:14"};
+	this.sidHashMap["Task_2:14"] = {rtwname: "<Root>/InPut1Inverter"};
+	this.rtwnameHashMap["<Root>/InPut2Inverter"] = {sid: "Task_2:15"};
+	this.sidHashMap["Task_2:15"] = {rtwname: "<Root>/InPut2Inverter"};
+	this.getSID = function(rtwname) { return this.rtwnameHashMap[rtwname];}
+	this.getRtwname = function(sid) { return this.sidHashMap[sid];}
+}
+RTW_rtwnameSIDMap.instance = new RTW_rtwnameSIDMap();
