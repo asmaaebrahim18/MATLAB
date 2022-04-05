@@ -1,0 +1,56 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["trafficstateflow.c:39c46"]=1;
+    this.traceFlag["trafficstateflow.c:40c43"]=1;
+    this.traceFlag["trafficstateflow.c:45c57"]=1;
+    this.traceFlag["trafficstateflow.c:67c50"]=1;
+    this.traceFlag["trafficstateflow.c:95c50"]=1;
+    this.traceFlag["trafficstateflow.c:123c50"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["trafficstateflow.c:39"]=1;
+    this.lineTraceFlag["trafficstateflow.c:40"]=1;
+    this.lineTraceFlag["trafficstateflow.c:45"]=1;
+    this.lineTraceFlag["trafficstateflow.c:47"]=1;
+    this.lineTraceFlag["trafficstateflow.c:51"]=1;
+    this.lineTraceFlag["trafficstateflow.c:52"]=1;
+    this.lineTraceFlag["trafficstateflow.c:56"]=1;
+    this.lineTraceFlag["trafficstateflow.c:59"]=1;
+    this.lineTraceFlag["trafficstateflow.c:62"]=1;
+    this.lineTraceFlag["trafficstateflow.c:64"]=1;
+    this.lineTraceFlag["trafficstateflow.c:65"]=1;
+    this.lineTraceFlag["trafficstateflow.c:67"]=1;
+    this.lineTraceFlag["trafficstateflow.c:69"]=1;
+    this.lineTraceFlag["trafficstateflow.c:70"]=1;
+    this.lineTraceFlag["trafficstateflow.c:74"]=1;
+    this.lineTraceFlag["trafficstateflow.c:77"]=1;
+    this.lineTraceFlag["trafficstateflow.c:80"]=1;
+    this.lineTraceFlag["trafficstateflow.c:83"]=1;
+    this.lineTraceFlag["trafficstateflow.c:86"]=1;
+    this.lineTraceFlag["trafficstateflow.c:89"]=1;
+    this.lineTraceFlag["trafficstateflow.c:93"]=1;
+    this.lineTraceFlag["trafficstateflow.c:95"]=1;
+    this.lineTraceFlag["trafficstateflow.c:97"]=1;
+    this.lineTraceFlag["trafficstateflow.c:98"]=1;
+    this.lineTraceFlag["trafficstateflow.c:102"]=1;
+    this.lineTraceFlag["trafficstateflow.c:105"]=1;
+    this.lineTraceFlag["trafficstateflow.c:108"]=1;
+    this.lineTraceFlag["trafficstateflow.c:111"]=1;
+    this.lineTraceFlag["trafficstateflow.c:114"]=1;
+    this.lineTraceFlag["trafficstateflow.c:117"]=1;
+    this.lineTraceFlag["trafficstateflow.c:123"]=1;
+    this.lineTraceFlag["trafficstateflow.c:125"]=1;
+    this.lineTraceFlag["trafficstateflow.c:126"]=1;
+    this.lineTraceFlag["trafficstateflow.c:130"]=1;
+    this.lineTraceFlag["trafficstateflow.c:133"]=1;
+    this.lineTraceFlag["trafficstateflow.c:136"]=1;
+    this.lineTraceFlag["trafficstateflow.c:139"]=1;
+    this.lineTraceFlag["trafficstateflow.c:142"]=1;
+    this.lineTraceFlag["trafficstateflow.c:145"]=1;
+    this.lineTraceFlag["trafficstateflow.c:171"]=1;
+    this.lineTraceFlag["trafficstateflow.c:172"]=1;
+    this.lineTraceFlag["trafficstateflow.c:173"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
